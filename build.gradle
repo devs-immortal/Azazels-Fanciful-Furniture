@@ -1,8 +1,0 @@
-plugins {
-	id "azazels-mods.module-conventions"
-}
-
-dependencies {
-	api include(project(path: "azazels-core", configuration: "namedElements"))
-	api include(project(path: "azazels-furniture", configuration: "namedElements"))
-}

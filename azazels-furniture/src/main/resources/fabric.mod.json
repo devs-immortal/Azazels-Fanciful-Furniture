@@ -37,7 +37,7 @@
     "java": ">=17",
     "azazels_core": "*"
   },
-  "recommends": {
+  "suggests": {
     "paradise_lost": "*",
     "spectrum": "*"
   }
