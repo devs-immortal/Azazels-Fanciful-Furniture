@@ -1,7 +1,0 @@
-plugins {
-    id "azazels-mods.module-conventions"
-}
-
-archivesBaseName = "azazels-core"
-
-
