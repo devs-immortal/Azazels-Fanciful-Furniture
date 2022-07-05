@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "azazels_core",
+  "version": "${version}",
+
+  "name": "Azzy's Core",
+  "description": "Milk it!",
+  "authors": [
+    "Azazelthedemonlord"
+  ],
+  "contact": {
+    "sources": "https://github.com/devs-immortal/Azazels-Fanciful-Mods",
+    "issues": "https://github.com/devs-immortal/Azazels-Fanciful-Mods/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/azazels_core/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.immortaldevs.azzy.core.AzazelsCore"
+    ],
+    "client": [
+      "net.immortaldevs.azzy.core.AzazelsCore"
+    ]
+  },
+
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library"
+      ]
+    }
+  },
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.19.*",
+    "java": ">=17"
+  }
+}

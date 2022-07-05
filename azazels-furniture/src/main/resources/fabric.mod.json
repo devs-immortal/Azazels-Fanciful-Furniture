@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "azazels_furniture",
+  "version": "${version}",
+
+  "name": "Azzy's Fanciful Furniture",
+  "description": "For when you need something nice",
+  "authors": [
+    "Azazelthedemonlord"
+  ],
+  "contact": {
+    "sources": "https://github.com/devs-immortal/Azazels-Fanciful-Mods",
+    "issues": "https://github.com/devs-immortal/Azazels-Fanciful-Mods/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/azazels_furniture/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.immortaldevs.azzy.furniture.AzazelsFurniture"
+    ],
+    "client": [
+      "net.immortaldevs.azzy.furniture.AzazelsFurniture"
+    ],
+    "core-data-bridge": [
+      "net.immortaldevs.azzy.furniture.DataBridge"
+
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.19.*",
+    "java": ">=17",
+    "azazels_core": "*"
+  },
+  "recommends": {
+    "paradise_lost": "*",
+    "spectrum": "*"
+  }
+}
