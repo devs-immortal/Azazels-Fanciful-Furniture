@@ -8,3 +8,4 @@ dependencies {
         configuration = "namedElements",
     ).also(::implementation)
 }
+

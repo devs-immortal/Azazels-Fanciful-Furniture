@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "azazels_mods",
+  "version": "${version}",
+
+  "name": "Azzy's Mods",
+  "description": "Milk it!",
+  "authors": [
+    "Azazelthedemonlord"
+  ],
+  "contact": {
+    "sources": "https://github.com/devs-immortal/Azazels-Fanciful-Mods",
+    "issues": "https://github.com/devs-immortal/Azazels-Fanciful-Mods/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/azazels_mods/icon.png",
+
+  "environment": "*"
+}

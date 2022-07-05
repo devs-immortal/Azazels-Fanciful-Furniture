@@ -19,6 +19,7 @@ plugins {
     `maven-publish`
 }
 
+group = "net.immortaldevs"
 project.version = version
 
 repositories {
@@ -170,6 +171,7 @@ loom {
             sourceSet(sourceSets.main.get())
             sourceSet(sourceSets.getByName("client"))
         }
+
     }
 }
 

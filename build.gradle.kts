@@ -6,10 +6,10 @@ dependencies {
 	project(
 		path = "azazels-core",
 		configuration = "namedElements",
-	).also(::runtimeOnly).also(::include)
+	).also(::api).also(::include)
 
 	project(
 		path = "azazels-furniture",
 		configuration = "namedElements",
-	).also(::runtimeOnly).also(::include)
+	).also(::api).also(::include)
 }
